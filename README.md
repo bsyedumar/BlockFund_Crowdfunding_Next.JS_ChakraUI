@@ -16,6 +16,9 @@ Blockfund is a decentralized web application that leverages the power of blockch
 - **Chakra UI**: Used for a simple, modular, and accessible component library.
 - **Blockchain**: Used for trustless, secure, and transparent transactions.
 
+
+![blockfund_campaign_page](https://github.com/bsyedumar/BlockFund_Crowdfunding_Next.JS_ChakraUI/assets/54539776/71e9c90b-7406-4898-97f1-994304899c91)
+
 ## Installation and Usage
 
 Before proceeding, ensure you have Node.js and npm installed on your machine.

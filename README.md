@@ -1,40 +1,56 @@
-# BlockFund_Crowdfunding_Next.JS_ChakraUI
-Blockfund: Trustless Peer-to-Peer Blockchain Crowdfunding Platform
+# BlockFund: Trustless Peer-to-Peer Blockchain Crowdfunding Platform
 
-# Blockfund: Trustless Peer-to-Peer Blockchain Crowdfunding Platform
-
-Blockfund is a decentralized web application built with [Next.js](https://nextjs.org/), [Chakra UI](https://chakra-ui.com/), and [React](https://reactjs.org/). It utilizes blockchain technology to create a trustless, peer-to-peer crowdfunding platform for secure and transparent transactions worldwide.
+Blockfund is a decentralized web application that leverages the power of blockchain technology to establish a trustless, peer-to-peer crowdfunding platform. It is built using Next.js, Chakra UI, and React, enabling secure and transparent transactions worldwide.
 
 ## Key Features
-* **Decentralized Crowdfunding** - Direct, peer-to-peer funding.
-* **Blockchain-Powered** - Secure and transparent transactions.
-* **User-Friendly Interface** - A sleek, intuitive, and responsive UI.
-* **Startups, Donations, & Investments** - Versatility for different financial journeys.
+
+- **Decentralized Crowdfunding**: Allows direct, peer-to-peer funding.
+- **Blockchain-Powered**: Ensures secure and transparent transactions.
+- **User-Friendly Interface**: Offers a sleek, intuitive, and responsive UI.
+- **Startups, Donations, & Investments**: Provides versatility for different financial journeys.
 
 ## Technologies Used
 
-* [Next.js](https://nextjs.org/) - For server-side rendering and generating static web pages.
-* [React](https://reactjs.org/) - For building user interfaces.
-* [Chakra UI](https://chakra-ui.com/) - For a simple, modular, and accessible component library.
-* Blockchain - For trustless, secure, and transparent transactions.
+- **Next.js**: Used for server-side rendering and generating static web pages.
+- **React**: Used for building user interfaces.
+- **Chakra UI**: Used for a simple, modular, and accessible component library.
+- **Blockchain**: Used for trustless, secure, and transparent transactions.
 
 ## Installation and Usage
 
-Before proceeding, make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+Before proceeding, ensure you have Node.js and npm installed on your machine.
 
-#Clone the repository to your local machine:
+# Clone the repository to your local machine
 git clone https://github.com/bsyedumar/BlockFund_Crowdfunding_Next.JS_ChakraUI.git
 
-#Navigate into the project directory:
+# Navigate into the project directory
+cd BlockFund_Crowdfunding_Next.JS_ChakraUI
 
-cd blockfund
-
-#Install the project dependencies:
-
+# Install the project dependencies
 npm install
 
-#To start the development server:
-
+# To start the development server
 npm run dev
 
-#Visit `http://localhost:3000` in your web browser to access the app.
+After running these commands, visit http://localhost:3000 in your web browser to access the app.
+
+## Hardhat Configuration
+Before deploying your contract, you will need to configure Hardhat. Hardhat is a development environment used to compile, deploy, test, and debug Ethereum software.
+
+
+# Contract Deployment
+With your Hardhat environment configured, you can now deploy your smart contract. Here's how you can do it:
+
+# Compile your contracts
+npx hardhat compile
+
+# Run a Hardhat network in a new terminal
+npx hardhat node
+
+# Deploy your contract in another terminal
+npx hardhat run scripts/deploy.js --network localhost
+Note that scripts/deploy.js should be replaced with the path to your deployment script.
+
+After running these commands, your smart contract will be deployed on your local Hardhat network.
+
+Enjoy BlockFund and happy coding!
